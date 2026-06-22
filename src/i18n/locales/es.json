@@ -1,0 +1,153 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "downloadCv": "Descargar CV",
+    "viewProjects": "Ver proyectos",
+    "bio": "Desarrollador Full Stack especializado en .NET (C#, ASP.NET Core, Blazor) y frontend moderno con React y TypeScript. Experiencia en SQL Server, aplicaciones móviles con Flutter e integración de IA para optimizar el desarrollo."
+  },
+  "about": {
+    "title": "Sobre mí",
+    "text": "Cuento con trayectoria en todo el ciclo de vida del software: desde la arquitectura hasta despliegues continuos con Git y pipelines CI/CD. He liderado soluciones empresariales que redujeron tiempos operativos en más del 90%, integrado facturación electrónica con SUNAT y aplicado medidas de seguridad contra XSS, CSRF y Path Traversal."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "subtitle": "Mi trayectoria profesional en desarrollo de software.",
+    "educationTitle": "Educación",
+    "items": {
+      "itsight": {
+        "company": "ITSight Consulting",
+        "client": "Cliente: Western Union - Sodimac",
+        "role": "Analista Desarrollador .NET",
+        "period": "Octubre 2025 – Mayo 2026",
+        "highlights": [
+          "Automatización de flujos de datos: descarga de CSV desde Google Cloud Storage y procesamiento en SQL Server con Stored Procedures (MERGE).",
+          "Módulos de reportes interactivos con Vue.js y .NET; medidas de seguridad contra CSRF, XSS y Path Traversal.",
+          "Migración de jQuery y Bootstrap obsoletos en el proyecto FX de Western Union, reduciendo deuda técnica.",
+          "CI/CD con GitLab y Azure DevOps para despliegues automatizados y reportes operativos."
+        ]
+      },
+      "gshop": {
+        "company": "GSHOP",
+        "role": "Desarrollador FullStack ASP.NET y Blazor",
+        "period": "Julio 2024 – Septiembre 2025",
+        "highlights": [
+          "Desarrollo de GSCommerce desde cero: inventario, RRHH y control de acceso por roles (RBAC).",
+          "Reducción del 95% en tiempos operativos: reportes Excel de 40 min a menos de 2 min.",
+          "Facturación electrónica integrada con SUNAT vía REST/SOAP: emisión de boletas de 10 min a menos de 10 seg.",
+          "Arquitectura segura con mitigaciones contra XSS, Path Traversal y accesos no autorizados."
+        ]
+      },
+      "hawa": {
+        "company": "HAWA PERU",
+        "role": "Desarrollador C# y .NET",
+        "period": "Enero 2024 – Mayo 2024",
+        "highlights": [
+          "Modernización de aplicación legacy en .NET: refactorización de deuda técnica y optimización de arquitectura.",
+          "Tiempos de respuesta un 75% más rápidos: ventanas de 10-20 s reducidas a 2-5 s.",
+          "Módulo de Gestión de Proveedores: digitalización de proceso en papel, búsquedas de 10 min a menos de 1 min."
+        ]
+      },
+      "ipda": {
+        "company": "IPDA",
+        "role": "Desarrollador C# y .NET",
+        "period": "Agosto 2023 – Enero 2024",
+        "highlights": [
+          "App de escritorio para gestión de asistencias con C#, WinForms y base de datos local.",
+          "Fotochecks con códigos de barras: costos operativos -70% y registro de 1 min a 3 seg por persona.",
+          "Módulos de miembros, sedes y cargos; solución offline sin dependencia de internet."
+        ]
+      },
+      "cepis": {
+        "company": "CEPIS — Centro de Producción de Ingeniería de Sistemas",
+        "role": "Desarrollador Front-End",
+        "period": "Marzo 2023 – Julio 2023",
+        "highlights": [
+          "Modernización de sistema web y mejora de eficiencia operativa.",
+          "Implementación de funcionalidades avanzadas para la experiencia de usuario."
+        ]
+      },
+      "municipalidad": {
+        "company": "Municipalidad de Chiclayo",
+        "role": "Desarrollador Front-End",
+        "period": "Mayo 2022 – Septiembre 2022",
+        "highlights": [
+          "Rediseño e implementación del portal web municipal.",
+          "Desarrollo con PHP (Laravel), JavaScript, HTML5 y CSS3."
+        ]
+      }
+    },
+    "education": {
+      "unprg": {
+        "institution": "Universidad Nacional Pedro Ruiz Gallo",
+        "degree": "Ingeniería de Sistemas",
+        "period": "Mayo 2017 – Octubre 2022"
+      },
+      "sanJose": {
+        "institution": "Colegio Nacional San José",
+        "degree": "Educación Secundaria Completa",
+        "period": "Diciembre 2014"
+      }
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Una selección de mi trabajo personal y profesional.",
+    "featured": "Destacado",
+    "live": "En vivo",
+    "development": "En desarrollo",
+    "viewDemo": "Ver demo",
+    "viewCode": "Código",
+    "items": {
+      "gscommerce": {
+        "name": "GSCommerce",
+        "description": "Sistema integral de gestión empresarial para GSHOP: inventario, RRHH y control de acceso por roles. Automatización de facturación electrónica vía SUNAT y reportes optimizados."
+      },
+      "landingAcademia": {
+        "name": "Academia Genesys",
+        "description": "Landing page institucional para clases personalizadas. Diseño moderno, responsive y orientado a conversión."
+      },
+      "landingRegistro": {
+        "name": "Registro Academia Genesys",
+        "description": "Formulario de registro con validación avanzada, captcha y generación de documentos para nuevos estudiantes."
+      },
+      "edumatch": {
+        "name": "EduMatch",
+        "description": "Plataforma educativa multiplataforma con app móvil (Capacitor), backend en ASP.NET Core y soporte multiidioma."
+      },
+      "intranetGenesys": {
+        "name": "Intranet Genesys",
+        "description": "Sistema interno de gestión académica: usuarios, asistencias, grupos y administración centralizada."
+      },
+      "controlPeso": {
+        "name": "Control de Peso",
+        "description": "Aplicación de seguimiento de peso y salud con gráficos interactivos, reportes PDF y panel de administración."
+      }
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "subtitle": "Tecnologías con las que trabajo día a día.",
+    "groups": {
+      "languages": "Lenguajes",
+      "frameworks": "Frameworks",
+      "databases": "Bases de datos",
+      "tools": "Herramientas"
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tienes un proyecto en mente? Escríbeme.",
+    "email": "Correo",
+    "location": "Ubicación"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  }
+}

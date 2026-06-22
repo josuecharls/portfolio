@@ -1,0 +1,153 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "downloadCv": "Download CV",
+    "viewProjects": "View projects",
+    "bio": "Full Stack Developer specialized in .NET (C#, ASP.NET Core, Blazor) and modern frontend with React and TypeScript. Experienced in SQL Server, mobile apps with Flutter, and AI integration to streamline development."
+  },
+  "about": {
+    "title": "About me",
+    "text": "I work across the full software lifecycle — from architecture to continuous deployment with Git and CI/CD pipelines. I've led enterprise solutions that cut operational times by over 90%, integrated electronic invoicing with SUNAT, and implemented security measures against XSS, CSRF, and Path Traversal."
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "My professional journey in software development.",
+    "educationTitle": "Education",
+    "items": {
+      "itsight": {
+        "company": "ITSight Consulting",
+        "client": "Client: Western Union - Sodimac",
+        "role": ".NET Developer Analyst",
+        "period": "October 2025 – May 2026",
+        "highlights": [
+          "Data pipeline automation: CSV downloads from Google Cloud Storage and SQL Server processing with MERGE stored procedures.",
+          "Interactive reporting modules with Vue.js and .NET; security hardening against CSRF, XSS, and Path Traversal.",
+          "Migrated legacy jQuery and Bootstrap on Western Union's FX project, reducing technical debt.",
+          "CI/CD with GitLab and Azure DevOps for automated deployments and operational reporting."
+        ]
+      },
+      "gshop": {
+        "company": "GSHOP",
+        "role": "Full Stack ASP.NET & Blazor Developer",
+        "period": "July 2024 – September 2025",
+        "highlights": [
+          "Built GSCommerce from scratch: inventory, HR, and role-based access control (RBAC).",
+          "95% faster operations: Excel reports from 40 min down to under 2 min.",
+          "Electronic invoicing integrated with SUNAT via REST/SOAP: invoice issuance from 10 min to under 10 sec.",
+          "Secure architecture with mitigations against XSS, Path Traversal, and unauthorized access."
+        ]
+      },
+      "hawa": {
+        "company": "HAWA PERU",
+        "role": "C# & .NET Developer",
+        "period": "January 2024 – May 2024",
+        "highlights": [
+          "Modernized legacy .NET application: technical debt refactoring and architecture optimization.",
+          "75% faster response times: window load from 10-20 s down to 2-5 s.",
+          "Supplier Management module: digitized paper-based process, search time from 10 min to under 1 min."
+        ]
+      },
+      "ipda": {
+        "company": "IPDA",
+        "role": "C# & .NET Developer",
+        "period": "August 2023 – January 2024",
+        "highlights": [
+          "Desktop attendance management app with C#, WinForms, and local database architecture.",
+          "Barcode ID cards: 70% lower operating costs and check-in from 1 min to 3 sec per person.",
+          "Member, branch, and role modules; fully offline solution with no internet dependency."
+        ]
+      },
+      "cepis": {
+        "company": "CEPIS — Systems Engineering Production Center",
+        "role": "Front-End Developer",
+        "period": "March 2023 – July 2023",
+        "highlights": [
+          "Web system modernization and improved operational efficiency.",
+          "Advanced features for enhanced user experience."
+        ]
+      },
+      "municipalidad": {
+        "company": "Municipality of Chiclayo",
+        "role": "Front-End Developer",
+        "period": "May 2022 – September 2022",
+        "highlights": [
+          "Redesign and implementation of the municipal web portal.",
+          "Built with PHP (Laravel), JavaScript, HTML5, and CSS3."
+        ]
+      }
+    },
+    "education": {
+      "unprg": {
+        "institution": "Universidad Nacional Pedro Ruiz Gallo",
+        "degree": "Systems Engineering",
+        "period": "May 2017 – October 2022"
+      },
+      "sanJose": {
+        "institution": "Colegio Nacional San José",
+        "degree": "Secondary Education",
+        "period": "December 2014"
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "A selection of my personal and professional work.",
+    "featured": "Featured",
+    "live": "Live",
+    "development": "In development",
+    "viewDemo": "View demo",
+    "viewCode": "Code",
+    "items": {
+      "gscommerce": {
+        "name": "GSCommerce",
+        "description": "End-to-end business management system for GSHOP: inventory, HR, and role-based access control. Electronic invoicing automation via SUNAT and optimized reporting."
+      },
+      "landingAcademia": {
+        "name": "Academia Genesys",
+        "description": "Institutional landing page for personalized classes. Modern, responsive design focused on conversion."
+      },
+      "landingRegistro": {
+        "name": "Academia Genesys Registration",
+        "description": "Registration form with advanced validation, captcha, and document generation for new students."
+      },
+      "edumatch": {
+        "name": "EduMatch",
+        "description": "Cross-platform educational app with Capacitor mobile support, ASP.NET Core backend, and multi-language i18n."
+      },
+      "intranetGenesys": {
+        "name": "Intranet Genesys",
+        "description": "Internal academic management system: users, attendance, groups, and centralized administration."
+      },
+      "controlPeso": {
+        "name": "Weight Control",
+        "description": "Weight and health tracking app with interactive charts, PDF reports, and admin dashboard."
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technologies I work with every day.",
+    "groups": {
+      "languages": "Languages",
+      "frameworks": "Frameworks",
+      "databases": "Databases",
+      "tools": "Tools"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a project in mind? Let's talk.",
+    "email": "Email",
+    "location": "Location"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
