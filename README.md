@@ -1,77 +1,100 @@
-# React + TypeScript + Vite
+# Portfolio — Josue Cipiriano Arevalo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portafolio personal de **Josue Cipiriano Arevalo**, Full Stack Developer especializado en .NET, React y TypeScript.
 
-Currently, two official plugins are available:
+Sitio web minimalista y responsive para presentar perfil profesional, experiencia laboral, proyectos y formas de contacto. Incluye CV descargable, modo claro/oscuro e internacionalización español/inglés.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Secciones
 
-## React Compiler
+| Sección | Contenido |
+| --- | --- |
+| **Hero** | Foto, nombre, rol, bio, botón de CV, enlaces a GitHub y LinkedIn |
+| **Sobre mí** | Resumen profesional |
+| **Experiencia** | Timeline con 6 empleos y formación académica |
+| **Proyectos** | 6 proyectos con stack, estado y enlaces a demo/código |
+| **Habilidades** | Tecnologías agrupadas por categoría |
+| **Contacto** | Email, ubicación, LinkedIn y GitHub |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Proyectos destacados
 
-## Expanding the ESLint configuration
+| Proyecto | Demo | Repositorio |
+| --- | --- | --- |
+| **GSCommerce** | [gscommerce.net](https://gscommerce.net/) | [GitHub](https://github.com/josuecharls/GSCommerce) |
+| **Academia Genesys** | [academiagenesys.vercel.app](https://academiagenesys.vercel.app/) | [GitHub](https://github.com/josuecharls/LandingPageAcademiaGenesys) |
+| **Registro Academia Genesys** | [registroacademiagenesys.vercel.app](https://registroacademiagenesys.vercel.app/) | [GitHub](https://github.com/josuecharls/LandingPageRegister) |
+| EduMatch | En desarrollo | — |
+| Intranet Genesys | En desarrollo | — |
+| Control de Peso | En desarrollo | — |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tecnologías
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **Frontend:** React 19, TypeScript, Vite, Tailwind CSS 4
+- **i18n:** i18next, react-i18next (ES / EN)
+- **UI:** Lucide React, tema claro/oscuro con CSS variables
+- **Tooling:** ESLint, TypeScript
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Desarrollo local
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Requisitos: Node.js 18+ y npm.
+
+```bash
+git clone https://github.com/josuecharls/portfolio.git
+cd portfolio
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+La app estará disponible en `http://localhost:5173`.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Scripts
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run dev      # Servidor de desarrollo
+npm run build    # Build de producción (carpeta dist/)
+npm run preview  # Vista previa del build
+npm run lint     # ESLint
 ```
-=======
-# portfolio
-Portafolio desarrollador .NET
->>>>>>> ca0f7dfe84d18f27caf50a74aeb438e2b6fd8dc1
+
+## Despliegue (Vercel)
+
+1. Importar el repositorio en [Vercel](https://vercel.com).
+2. Framework: **Vite**.
+3. Build command: `npm run build`
+4. Output directory: `dist`
+
+## Estructura del proyecto
+
+```
+portfolio/
+├── public/
+│   ├── perfil.jpg              # Foto de perfil
+│   ├── cv-josue-cipiriano.pdf  # CV descargable
+│   └── favicon.svg
+├── src/
+│   ├── components/             # UI (Header, Hero, Experience, etc.)
+│   ├── context/                # Tema claro/oscuro
+│   ├── data/                   # Perfil, proyectos, experiencia, skills
+│   └── i18n/locales/           # Traducciones es.json y en.json
+└── ...
+```
+
+## Editar contenido
+
+| Archivo | Qué modificar |
+| --- | --- |
+| `src/data/profile.ts` | Datos personales y enlaces |
+| `src/data/projects.ts` | URLs, tecnologías y estado de proyectos |
+| `src/data/experience.ts` | Orden de experiencia y educación |
+| `src/i18n/locales/es.json` | Textos en español |
+| `src/i18n/locales/en.json` | Textos en inglés |
+| `public/cv-josue-cipiriano.pdf` | Actualizar CV |
+
+## Contacto
+
+- **LinkedIn:** [josue-charles-cipiriano-arevalo](https://www.linkedin.com/in/josue-charles-cipiriano-arevalo/)
+- **GitHub:** [josuecharls](https://github.com/josuecharls)
+- **Email:** josuecharls1@gmail.com
+
+## Licencia
+
+Proyecto personal. Todos los derechos reservados.
